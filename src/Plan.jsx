@@ -4,9 +4,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Plan = () => {
   return (
-    <div class="ps-5 pe-5 Plan">
+    <div class="px-2 px-md-5 Plan">
       <FontAwesomeIcon icon="fa-solid fa-clapperboard" />
-      <div class="d-flex justify-content-between align-items-center border rounded p-4 bg-danger text-white ms-5 me-5">
+      <div
+        class="d-flex 
+                  flex-column 
+                  flex-sm-row 
+                  justify-content-between 
+                  align-items-center 
+                  border 
+                  rounded 
+                  p-4 
+                  bg-danger 
+                  text-white 
+                  mx-sm-5"
+      >
         <div>
           <p>
             <b>The Watchsy you love for just $7.99.</b>

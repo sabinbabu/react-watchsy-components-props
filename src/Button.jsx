@@ -3,7 +3,7 @@ const Button = (prop) => {
 
   return (
     <>
-      <button class="btn btn-danger ps-4 pe-4">
+      <button class="btn btn-danger px-3">
         <b>{name}</b>
       </button>
     </>
