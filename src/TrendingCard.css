@@ -1,0 +1,10 @@
+.image {
+  height: 20rem;
+  width: 15rem;
+  object-fit: cover;
+}
+
+.image:hover {
+  transition: all 0.5s;
+  transform: scale(1.5);
+}
